@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	running = true;
 
-	$("body").keypress(function (e){processInput(e);});
+	$("body").keydown(function (e){processInput(e);});
 
 	$("#tetris").append(createNextDisplay());
 
